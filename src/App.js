@@ -13,9 +13,9 @@ function App() {
 
       <div className="container">
         <Switch>
-          <Route path={"/"} exact component={Home} />
-          <Route path={"/about"} component={About} />
-          <Route path={"/more"} component={More} />
+          <Route path={"/todoappreact"} exact component={Home} />
+          <Route path={"/todoappreact/about"} component={About} />
+          <Route path={"/todoappreact/more"} component={More} />
         </Switch>
       </div>
     </BrowserRouter>
