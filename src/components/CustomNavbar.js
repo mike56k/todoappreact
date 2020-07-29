@@ -1,6 +1,5 @@
 import React from "react";
 
-import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Button } from "react-bootstrap";
 export const CustomNavbar = () => {
   return (
@@ -10,7 +9,6 @@ export const CustomNavbar = () => {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/todoappreact/about">О проекте</Nav.Link>
-          <Nav.Link href="/todoappreact/more">Еще</Nav.Link>
         </Nav>
         <Nav>
           <Button

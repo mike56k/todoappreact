@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import { Context } from "../context/Context";
+import React from "react";
 import { Note } from "../components/Note";
 export const Notes = ({ notes }) => {
   return (
