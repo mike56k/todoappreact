@@ -10,7 +10,7 @@ import {
   // COMPLETE_NOTE,
 } from "../types";
 
-const url = process.env.REACT_APP_DB_URL;
+const url = "https://reactportfolioapp.firebaseio.com/";
 
 export const FirebaseState = ({ children }) => {
   const initialState = {
