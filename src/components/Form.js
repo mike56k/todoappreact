@@ -43,7 +43,6 @@ export const Form = () => {
               // ]);
               addNote(note);
               setNote("");
-              console.log(notes);
             }
           }}
         />
